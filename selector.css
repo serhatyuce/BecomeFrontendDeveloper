@@ -1,0 +1,193 @@
+div h1 {
+  color: red;
+}
+
+div h2 {
+  color: red;
+}  
+
+a:link {  /*Pseudo-class Selectors*/
+  color: #0000ff;
+}
+a:visited {
+color: #ff00ff;
+}
+a:hover {
+color: #00ccff;
+}
+a:active {
+color: #ff0000;
+}
+
+li:nth-child(2n) {
+    color: red;
+ }
+ 
+ li:nth-child(2n+1) {
+    color: red;
+ }
+ 
+ p:nth-child(2n) {
+    color: red;
+ }
+ 
+ p:nth-child(2n+1) {
+    color: blue;
+ }
+
+ li {
+    color: white;
+    background-color: blue;
+  }
+  
+  li:first-child{
+    color: red;
+    font-size: 10px;
+    background-color: yellowgreen;
+  }
+  
+  li:last-child{
+    color: white;
+    background-color: red;
+  }
+
+  div > h1 {
+    border-bottom: 5px solid orange;
+    color: green;
+  }
+  
+  div > div > p {
+    border-bottom: 1px solid purple;
+    color: brown;
+  }
+
+  div > h1, div > div > p {
+    border-bottom: 3px solid orange;
+    color: aqua;
+  }
+
+  div.aboutClassSelectors>h1,div#aboutIdSelectors>h1{
+    border-bottom: 1px solid black;
+  }
+  
+  div.aboutClassSelectors>p,div#aboutIdSelectors>p{
+    font-style: italic;
+  }
+      /*       box          */
+  body * {
+    border: 3px solid pink;
+    border-radius: 10px;
+  }
+  
+  #halfWidthContainer {
+    width: 50%
+  }
+  
+  .half {
+    width: 50%;
+  }
+  
+  .quarter {
+    width: 25%;
+  }
+
+ /*padding*/
+  /* A single value will apply the same 
+padding on all sides of the box */
+#padding1 {
+  padding: 10px;
+}
+
+/* Two values will apply as: 
+		first value - vertical sides
+		second value - horizontal sides */
+#padding2 {
+  padding: 5px 20px;
+}
+
+/* Three values will apply as:  
+		first value: top side
+		second value: horizontal sides
+		third value: bottom side */
+#padding3 {
+  padding: 10px 5px 30px;
+} 
+
+/* Four values will apply as: 
+		first value: top
+		second value: right
+		third value: bottom
+		fourth value: left
+*/
+#padding4 {
+  padding: 10px 5px 60px 35px;
+}
+
+div {
+  padding: 20px;
+}
+
+span {
+  background-color: plum;
+  border: 5px solid green;
+}
+
+h1{
+  border: dashed 15px maroon;
+  padding: 10px 20px;
+ border-radius: 15px;
+}
+
+/*border*/
+#border1 {
+  border: 10px dotted purple;
+}
+
+#border2 {
+  border: 10px double green;
+}
+
+#border3 {
+  border: 10px solid yellow;
+}
+
+#border4 {
+  border: 10px groove teal;
+}
+/*margin*/
+/* 1 value: margin applied as
+	 same on all sides */
+   #margin1 {
+    margin: 10px;
+  }
+  
+  /* 2 values: margin applied as 
+     vertical sides - horizontal sides */
+  #margin2 {
+    margin: 10px 20px;
+  }
+  
+  /* 3 values: margin applied as 
+     top - horizontal sides - bottom */
+  #margin3 {
+    margin: 10px 20px 30px;
+  }
+  
+  /* 4 values: margin applied as 
+     top - right - bottom - left */
+  #margin4 {
+    margin: 10px 20px 30px 40px;
+  }
+  
+  .spanBox {
+    border: 1px dashed black;
+    margin: 5px;
+    float: left;
+  }
+  
+  span {
+    background-color: plum;
+    border: 5px solid green;
+    padding: 10px 20px;
+    display: inline-block;
+  }
