@@ -1,7 +1,0 @@
-*.txt
-<link rel='stylesheet' href='Explicit box size.css'>
-
-git init
-git add -A 
-git commit -m "Descriptive message"
-git push
