@@ -1,5 +1,4 @@
 # Become Frontend Developer 
-# <link rel='stylesheet' href='Explicit box size.css'>
 
 # git init
 # git add -A "for all files" // git add .
